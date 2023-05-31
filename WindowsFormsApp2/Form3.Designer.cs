@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class Form3
+    partial class Settings
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,7 +45,7 @@
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(803, 576);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 41);
+            this.label1.Size = new System.Drawing.Size(174, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Клавиша F:";
             // 
@@ -56,7 +56,7 @@
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(803, 525);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(181, 41);
+            this.label2.Size = new System.Drawing.Size(178, 40);
             this.label2.TabIndex = 1;
             this.label2.Text = "Клавиша D:";
             // 
@@ -67,7 +67,7 @@
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(1005, 525);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(215, 41);
+            this.label3.Size = new System.Drawing.Size(207, 40);
             this.label3.TabIndex = 2;
             this.label3.Text = "Бег персонажа";
             // 
@@ -78,7 +78,7 @@
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(1005, 576);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(245, 41);
+            this.label4.Size = new System.Drawing.Size(234, 40);
             this.label4.TabIndex = 3;
             this.label4.Text = "Взаимодействие";
             // 
@@ -101,7 +101,7 @@
             this.label5.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(807, 632);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(267, 41);
+            this.label5.Size = new System.Drawing.Size(261, 40);
             this.label5.TabIndex = 5;
             this.label5.Text = "Клавиша Mouse 1:";
             // 
@@ -112,11 +112,11 @@
             this.label6.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(1102, 632);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(241, 41);
+            this.label6.Size = new System.Drawing.Size(232, 40);
             this.label6.TabIndex = 6;
             this.label6.Text = "Закрыть диалог";
             // 
-            // Form3
+            // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -131,7 +131,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.Name = "Form3";
+            this.Name = "Settings";
             this.Text = "Form3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);

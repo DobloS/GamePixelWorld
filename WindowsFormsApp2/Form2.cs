@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class Form2 : Form
+    public partial class Menu : Form
     {
-        Form1 form1;
+        Forest forest;
         System.Media.SoundPlayer sp = new System.Media.SoundPlayer();
-        public Form2()
+        public Menu()
         {
             InitializeComponent();
             sp.SoundLocation = "C:\\Users\\smaks\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Sprites\\Music.wav";
@@ -23,9 +23,9 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            form1 = new Form1();
+            forest = new Forest();
             Hide();
-            form1.ShowDialog();
+            forest.ShowDialog();
             Close();
         }
 

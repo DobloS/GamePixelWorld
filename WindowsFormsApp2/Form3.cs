@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class Form3 : Form
+    public partial class Settings : Form
     {
-        Form1 form1;
-        public Form3()
+        Forest forest;
+        Cave cave;
+        public Settings()
         {     
             InitializeComponent();
            
@@ -21,7 +22,8 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            form1 = new Form1();
+            forest = new Forest();
+            cave = new Cave();
             Hide();
             Close();       
         }
